@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.border {
+    border: 1px solid #cccccc;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+@media (min-width: 1920px) {
+    .container {
+        max-width: 1410px;
+    }
+}
+
+.d-flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* navbar-top */
+.navbar-top {
+    display: none;
+    padding: 1rem 0;
+}
+
+.navbar-top .border {
+    opacity: 60%;
+    border-bottom: 1px solid #707070;
+}
+
+.navbar-top .container {
+    padding-left: 70px;
+}
+
+@media (min-width: 768px) {
+    .navbar-top {
+        display: block;
+    }
+}
+
+.working-hours {
+    display: flex;
+    align-items: center;
+}
+
+.working-hours i {
+    margin-right: 0.5rem;
+    font-size: 1.3rem;
+    color: #2BAAEC;
+}
+
+.working-hours p {
+    margin: 0;
+    font-size: 1.05rem;
+}
+
+.navbar-top ul  {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.navbar-top ul li {
+    margin-left: 1.3rem;
+}
+
+.navbar-top a {
+    color: #2BAAEC;
+    font-size: 1.1rem;
+}
+
+.navbar-top a:hover {
+    color: #25E6C8;
+}
+
+.navbar-bottom ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+}
+
+.navbar-bottom ul li {
+    margin-left: 1.3rem;
+}
+
+.navbar-bottom a {
+    color: #363636;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.navbar-bottom img {
+    padding: 50px;
+}
+
+.showcase {
+    /* display: flex;
+    justify-content: space-between; */
+    background-color: #DEDEDE;
+    height: 700px;
+    justify-content: space-around;
+}
+
+.placeholder {
+    width: 615px;
+    height: 680px;
+    margin-top: 20px;
+    /* margin-left: 206px;
+    margin-right: 150px; */
+}
+
+.right-text {    
+    margin-top: 180px;
+    /* margin-right: auto;
+    margin-left: auto; */
+    width: 690px;
+    height: 341px;
+}
+
+.head-text p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.sub-text {
+    font-size: 18px;
+    margin: 40px 0;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #25E6C8;
+    border-radius: 8px;
+    color: white;
+    padding: 18px 55px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #2BAAEC;
+    border-radius: 8px;
+}
+
+.about-us {
+    display: flex;
+    width: 1313px;
+    height: 724px;
+    margin: 90px auto 0 auto;
+    justify-content: space-between;
+}
+
+.head p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    margin: 0;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.numbers {
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    color: #25E6C8;
+    margin: 20px 0 0 0;
+}
+
+.text {
+    margin: 0;
+}
+
+#services {
+    background-color: #F7F7F7;
+    padding-top: 150px;
+    border: 1px solid blueviolet;
+}
+
+.service-head {
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    margin-left: 625px;
+    height: 50px;
+}
+
+.service-d-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.service-box {
+    width: 450px;
+    height: 436px;
+    background-color: white;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.service-box p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px;
+    color: #363636;
+}
+
+#appointment {
+    background-color: #4EB4E8;
+}
+
+.appointment-d-flex {
+    display: flex;
+    justify-content: space-evenly;
+    height: 220px;
+}
+
+#appointment p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#appointment button {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2BAAEC;
+    background-color: #FFFFFF;
+    padding: 18px 56px;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 60px;
+    border: none;
+    border-radius: 8px;
+}
+
+#appointment button:hover {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #2BAAEC;
+    padding: 18px 56px;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 60px;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+}
+
+#footer {
+    background-color: #2BAAEC;
+    color: #F3FBFF;
+    font-size: 16px;
+    text-align: center;
+}
+
+#footer p {
+    opacity: 0.6;
+    margin: 0;
+}
