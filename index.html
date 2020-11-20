@@ -10,64 +10,69 @@
     <title>Dential Clinic</title>
 </head>
 <body>
-    <nav class="navbar-top border">
-        <div class="container d-flex-space-between">
+
+    <!-- Top menu -->
+    <div id="top-menu">
+        <div class="container">
             <div class="working-hours">
                 <i class="far fa-clock"></i>
-                <p>Working hours: Monday - Friday: 9:00 - 18:00</p>
+                <span>Working hours: Monday - Friday: 9:00 - 18:00</span>
             </div>
-            <ul>
+
+            <ul class="social-media">
                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                 <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
                 <li><a href="#"><i class="fab fa-instagram"></i></a></li>
             </ul>
         </div>
-    </nav>
-    
-    <nav class="navbar-bottom">
-        <div class="container d-flex-space-between">
-                <img src="Images\Logo.svg">
-            <ul>
-                <li><a href="#">Home</i></a></li>
-                <li><a href="#">About Us</i></a></li>
-                <li><a href="#">Services</i></a></li>
-                <li><a href="#">Contact</i></a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <div class="showcase d-flex-space-between">
-        <div>
-            <img class="placeholder" src="Images\placehold.svg">
-        </div>
-
-        <div class="right-text">
-            <div class="head-text">
-                <p>Modern techonologies</p>
-                <p>ensure safety</p>
-            </div>
-            <div class="sub-text">
-                Our clinic is equipped with the highest quality medical and dental equipment,<br>
-                which allows for quick and effective treatment of the patient.
-            </div>
-            <div>
-                <a href='#' class="btn">About our clinic</a>
-            </div>
-            </div>
-        </div>
     </div>
     
-    <div class="about-us">
-        <div>
+    <!-- Main menu -->
+    <nav id="main-menu">
+        <div class="container">
+            <img class="logo" src="Images\Logo.svg" alt="logo">
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</i></a></li>
+                    <li><a href="#">About Us</i></a></li>
+                    <li><a href="#">Services</i></a></li>
+                    <li><a href="#">Contact</i></a></li>
+                </ul>
+                <button class="btn"><i class="fas fa-bars"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+    <div id="showcase">
+            <img class="placeholder" src="Images\placehold.svg">
+
+            <div>
+                <div class="head-text">
+                    <p>Modern techonologies</p>
+                    <p>ensure safety</p>
+                </div>
+                <div class="sub-text">
+                    Our clinic is equipped with the highest quality medical and dental equipment,<br>
+                    which allows for quick and effective treatment of the patient.
+                </div>
+                    <a href='#' class="btn">About our clinic</a>
+            </div>
+    </div>
+    
+    <!-- About us -->
+    <div id="about-us">
+        <div style="align-self: center;">
             <div class="head">
-                <p>Dential<span style="color: #25E6C8;">Clinic</span>  is a modern</p>
+                <p>Dential<span style="color: #2BAAEC;">Clinic</span>  is a modern</p>
                 <p>medical and dental clinic</p>
             </div>
 
-            <hr size="4px" color="#25E6C8">
+            <hr size="6px" color="#25E6C8" width="90%" align="left">
 
-            <div style="width: 690px; height: 192px; font-size: 18px;">
+            <div class="body-text">
                 <p style="margin-top: 40px;">The DentialClinic Center located in the city of Stockholm is one of the most modern dentistry centers in Sweden. It was created for demanding patients who expect the highest quality of services combined with comfort and a pleasant atmosphere.</p>
                 <p>The highest-class dental equipment possessed by the DentialClinic Center enables complicated procedures to be carried out. In our dental practice we combine passion, technology and quality. We strive to fulfill your dreams of a wonderful smile.</p>
             </div>
@@ -88,8 +93,8 @@
             </div>
         </div>
 
-        <div>
-            <img src="Images\placehold-about-us.svg" alt="About Us Placeholder" style="height: 724px;">
+        <div class="image-holder">
+            <img src="Images\placehold-about-us.svg" alt="About Us Placeholder">
         </div>
 
     </div>
