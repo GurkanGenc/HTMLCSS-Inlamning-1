@@ -256,6 +256,10 @@ html, body {
     border-radius: 8px;
 }
 
+.service-box:hover {
+    box-shadow: 0 10px 30px lightgray;
+}
+
 .service-box p {
     font-family: 'Roboto Slab', serif;
     font-size: 22px;
@@ -263,8 +267,10 @@ html, body {
 }
 /* #endregion */
 
+/* #region Appointment */
 #appointment {
-    background-color: #4EB4E8;
+    background-color: #2BAAEC;
+    opacity: 0.8;
 }
 
 .appointment-d-flex {
@@ -302,16 +308,19 @@ html, body {
     padding: 18px 56px;
     margin-top: auto;
     margin-bottom: auto;
+    margin-left: -4px;
     height: 60px;
     border: 2px solid #FFFFFF;
     border-radius: 8px;
 }
+/* #endregion */
 
 #footer {
     background-color: #2BAAEC;
     color: #F3FBFF;
     font-size: 16px;
     text-align: center;
+    padding: 28.5px 0;
 }
 
 #footer p {
