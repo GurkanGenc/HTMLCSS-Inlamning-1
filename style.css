@@ -148,7 +148,7 @@ html, body {
 
 .placeholder {
     margin-top: 20px;
-    margin-right: 150px;
+    margin-right: 120px;
     height: 20rem;
 }
 @media (min-width:768px) { .placeholder {height: 38rem;} }
@@ -223,22 +223,28 @@ html, body {
 }
 /* #endregion */
 
-#services {
+/* #region Services */
+#main-grid-container {
+    display: flex;
+    justify-content: center;
     background-color: #F7F7F7;
     padding-top: 150px;
-    border: 1px solid blueviolet;
+    padding-bottom: 150px;
 }
 
-.service-head {
+#services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-items: center;
+}
+
+.service-title {
     font-family: 'Roboto Slab', serif;
     font-size: 40px;
-    margin-left: 625px;
-    height: 50px;
-}
-
-.service-d-flex {
-    display: flex;
-    justify-content: space-evenly;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
 
 .service-box {
@@ -247,6 +253,7 @@ html, body {
     background-color: white;
     text-align: center;
     padding-top: 70px;
+    border-radius: 8px;
 }
 
 .service-box p {
@@ -254,6 +261,7 @@ html, body {
     font-size: 22px;
     color: #363636;
 }
+/* #endregion */
 
 #appointment {
     background-color: #4EB4E8;
