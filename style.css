@@ -220,10 +220,11 @@ html, body {
 hr {
     height: 1px;
     background-color:#25E6C8;
+    border: none;
     width: 50%;
 }
-@media (min-width:768px) { hr {height: 4px; width: 60%; margin-left: 0;} }
-@media (min-width: 1024px) { hr {height: 6px; width: 90%; margin-left: 0;} }
+@media (min-width:768px) { hr {height: 2.5px; width: 90%; margin-left: 0;} }
+@media (min-width: 1024px) { hr {height: 4px; width: 85%; margin-left: 0;} }
 
 .body-text {
     font-size: 4px;
