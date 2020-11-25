@@ -1,9 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
-/* 
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Slab', serif; 
-*/
-
 
 /* #region mobile first - Standard Styling */
 * {
@@ -332,6 +327,14 @@ hr {
 @media (min-width: 768px) { .service-box img {width: 50px;} }
 @media (min-width: 1024px) { .service-box img {width: 90px;} }
 @media (min-width: 1440px) { .service-box img {width: 120px;} }
+
+.service-box img:hover {
+    box-shadow: 0 0 5px #2BAAEC;
+    border-radius: 50%;
+}
+@media (min-width: 768px) { .service-box img:hover {box-shadow: 0 0 15px #2BAAEC;} }
+@media (min-width: 1024px) { .service-box img:hover {box-shadow: 0 0 25px #2BAAEC;} }
+@media (min-width: 1440px) { .service-box img:hover {box-shadow: 0 0 35px #2BAAEC;} }
 
 .service-box header {
     font-family: 'Roboto Slab', serif;
